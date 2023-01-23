@@ -1,0 +1,6 @@
+# postal-office
+This is a Java programming assignment simulating the flow of customers in a post office with 4 counters.
+The post office has a large waiting room where customers can enter freely, take a number from the counter, and wait for their turn. There is also a smaller room in front of the counters that can only accommodate groups of k people. Customers first wait in the large waiting room, then move to the smaller room in front of the counters. Each customer takes a different amount of time for their operation at the counter. Once finished, the customer leaves the post office. The program must model the post office as a Java class and activate a ThreadPool of size equal to the number of counters. The waiting room queue is explicitly managed by the program, while the second queue (in front of the counters) is implicitly managed by the ThreadPool. Each customer is modeled as a task that must be assigned to one of the threads associated with the counters. The program must start by allowing all customers to enter the post office at the beginning. As an optional feature, the program can handle a continuous flow of customers and the possibility that the operator closes the counter after a certain period of time without customers.
+
+
+
